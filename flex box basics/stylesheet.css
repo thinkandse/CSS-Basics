@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+    background-color: #bd1f1f7b;  
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: aqua;
+    width: 60%;
+    align-items: stretch;
+    height: 300px;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items:calc(50% - 90px);
+    color: thistle;
+}
